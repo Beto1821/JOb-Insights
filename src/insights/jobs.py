@@ -30,5 +30,3 @@ def filter_by_job_type(jobs: List[Dict], job_type: str) -> List[Dict]:
         if job["job_type"] == job_type:
             jobinho.append(job)
     return jobinho
-
-
